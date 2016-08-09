@@ -15,7 +15,7 @@ public class WebElementsActionsTest {
 		Date date = new Date();
 		
 		WebDriver driver1 = new FirefoxDriver();		
-		GetAttributesClass tom = new GetAttributesClass();
+		GetAttributes tom = new GetAttributes();
 		
 		tom.getAttributes(driver1);
 				

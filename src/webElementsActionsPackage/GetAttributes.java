@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 
-import java.util.Date;
+import java.util.*;
 
-public class GetAttributesClass {
+public class GetAttributes {
 	// TODO Auto-generated constructor stub
 	Date date = new Date();
 	
@@ -20,12 +20,23 @@ public class GetAttributesClass {
 		System.out.println("The name of the value is: " + searchButton.getAttribute("value"));
 		System.out.println("The name of the aira-label is: " + searchButton.getAttribute("aria-label"));
 		/**
-		 *  NOTE: this uses equals and NOT ==, this is VERY IMPORTANT
+		 *  NOTE: this uses '.equals', NOT == for 'getAttribute', this is VERY IMPORTANT
+		 *  getAttribute is a List??????
 		 */
-		if ((((searchButton.getAttribute("value")).equals("Google Searc"))))
+		if ((((searchButton.getAttribute("value")).equals("Google Search"))))
 			System.out.println("The attributes are equal = true");
 		else 
 			System.out.println("The attributes are equal = f**king false");
+		
+		
+		
+/**		ArrayList<Integer> test = new ArrayList<Integer>(); 
+		for(int i =0; i <= 10;i++)	{
+			test.add(i);
+		}
+		for(int i = 0; i <= 10; i++)	{
+			 System.out.println(test.get(i));
+		}  */
 	}
 	
 
