@@ -30,16 +30,15 @@ public class GetAttributes {
 		
 		
 		
-/**		ArrayList<Integer> test = new ArrayList<Integer>(); 
+		ArrayList<Integer> test = new ArrayList<Integer>(); 
 		for(int i =0; i <= 10;i++)	{
 			test.add(i);
 		}
 		for(int i = 0; i <= 10; i++)	{
-			 System.out.println(test.get(i));
-		}  */
+			 System.out.print(test.get(i) + "  ");
+		}
+		driver1.quit();
 	}
-	
-
 }
 
 
