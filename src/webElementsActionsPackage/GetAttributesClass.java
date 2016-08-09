@@ -22,7 +22,7 @@ public class GetAttributesClass {
 		/**
 		 *  NOTE: this uses equals and NOT ==, this is VERY IMPORTANT
 		 */
-		 		if ((((searchButton.getAttribute("value")).equals("Google Searc"))))
+		if ((((searchButton.getAttribute("value")).equals("Google Searc"))))
 			System.out.println("The attributes are equal = true");
 		else 
 			System.out.println("The attributes are equal = f**king false");
