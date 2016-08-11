@@ -31,14 +31,14 @@ public class GetAttributes {
 /** 
  * this is just a memory kick for me on ArrayList syntax
  */		
-		ArrayList<Integer> test = new ArrayList<Integer>(); 
+/*		ArrayList<Integer> test = new ArrayList<Integer>(); 
 		for(int i =0; i <= 10;i++)	{
 			test.add(i);
 		}
 		for(int i = 0; i <= 10; i++)	{
 			 System.out.print(test.get(i) + "  ");
 		}
-		driver1.quit();
+		driver1.quit();   */
 	}
 }
 
