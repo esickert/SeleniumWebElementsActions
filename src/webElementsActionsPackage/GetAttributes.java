@@ -22,10 +22,10 @@ public class GetAttributes extends ExtraStuffActionsTest{
 		System.out.println("The name of the aira-label is: " + searchButton.getAttribute("aria-label"));
 		toSleep();
 		
-		/**
-		 *  NOTE: this uses '.equals', NOT == for 'getAttribute', this is VERY IMPORTANT
-		 *  getAttribute is a List??????
-		 */
+/**
+*  NOTE: this uses '.equals', NOT == for 'getAttribute', this is VERY IMPORTANT
+*  reference selenium java api !!!
+*/
 		if ((((searchButton.getAttribute("value")).equals("Google Search"))))
 			System.out.println("The attributes are equal = true");
 		else 
