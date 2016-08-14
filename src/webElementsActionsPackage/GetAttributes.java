@@ -30,7 +30,11 @@ public class GetAttributes extends ExtraStuffActionsTest{
 			System.out.println("The attributes are equal = true");
 		else 
 			System.out.println("The attributes are equal = f**king false");
+		toSleep();
+		driver1.navigate().to("http://www.bing.com");
+		toSleep();
 		driver1.quit();
+		System.out.println("Tha..tha..that's all folks!");
 		
 /** 
  * this is just a memory kick for me on ArrayList syntax
