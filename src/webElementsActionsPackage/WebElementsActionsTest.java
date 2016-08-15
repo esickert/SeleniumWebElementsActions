@@ -19,11 +19,6 @@ public class WebElementsActionsTest  {
 		GetAttributes tom = new GetAttributes();
 
 		tom.getAttributes(driver1);
-				
-		
-		
-		
-
 	}
 
 }
