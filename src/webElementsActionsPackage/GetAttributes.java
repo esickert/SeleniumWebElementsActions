@@ -34,7 +34,7 @@ public class GetAttributes extends ExtraStuffActionsTest{
 		driver1.navigate().to("http://www.bing.com");
 		toSleep();
 		driver1.quit();
-		System.out.println("Th..tha..that's all folks!");
+
 		
 /** 
  * this is just a memory kick for me on ArrayList syntax
