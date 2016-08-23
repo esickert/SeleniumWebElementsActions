@@ -19,8 +19,8 @@ public class WebElementsActionsTest  {
 		GetAttributes tom = new GetAttributes();
 		SendKeys dick = new SendKeys();
 		
-//		tom.getAttributes(driver1);
-		dick.Sendkeys();
+		tom.getAttributes(driver1);
+//		dick.Sendkeys();
 		
 		System.out.println("Th..tha..that's all folks!");
 	}

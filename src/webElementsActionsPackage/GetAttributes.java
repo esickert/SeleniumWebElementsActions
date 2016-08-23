@@ -12,7 +12,7 @@ public class GetAttributes extends ExtraStuffActionsTest{
 	
 	public void getAttributes(WebDriver driver1)	{
 	
-	driver1.get("http://www.google.com");
+		driver1.get("http://www.google.com");
 		System.out.println(date + " Successfully opened Google");
 		toSleep();
 
@@ -21,19 +21,28 @@ public class GetAttributes extends ExtraStuffActionsTest{
 		System.out.println("The name of the value is: " + searchButton.getAttribute("value"));
 		System.out.println("The name of the aira-label is: " + searchButton.getAttribute("aria-label"));
 		toSleep();
+	
 		
 /**
 *  NOTE: this uses '.equals', NOT == for 'getAttribute', this is VERY IMPORTANT
 *  reference selenium java api !!!
 */
-		if ((((searchButton.getAttribute("value")).equals("Google Search"))))
+//	public void TestAttributes 
+		if ((((searchButton.getAttribute("value")).equals("Google Search")))) {
 			System.out.println("The attributes are equal = true");
-		else 
+			System.gc();                         //garbage collector????????????????????
+		}
+		else {
 			System.out.println("The attributes are equal = f**king false");
+			System.out.println("This will throw a null pointer Exception");
+			throw null;                         // throwing a null exception when error.
+		}
 		toSleep();
 		driver1.navigate().to("http://www.bing.com");
 		toSleep();
-		driver1.quit();
+		driver1.quit(); 
+	}
+}
 
 		
 /** 
@@ -47,7 +56,7 @@ public class GetAttributes extends ExtraStuffActionsTest{
 			 System.out.print(test.get(i) + "  ");
 		}
 		driver1.quit();   */
-	}
-}
+//	}
+
 
 
