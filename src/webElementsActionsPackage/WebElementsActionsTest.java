@@ -12,10 +12,10 @@ public class WebElementsActionsTest  {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Date date = new Date();
+//		Date date = new Date();
 		
 		
-		WebDriver driver1 = new FirefoxDriver();		
+//		WebDriver driver1 = new FirefoxDriver();		
 		GetAttributes tom = new GetAttributes();
 		SendKeys dick = new SendKeys();
 		Clear harry = new Clear();
