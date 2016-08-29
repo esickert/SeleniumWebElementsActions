@@ -18,9 +18,13 @@ public class WebElementsActionsTest  {
 		WebDriver driver1 = new FirefoxDriver();		
 		GetAttributes tom = new GetAttributes();
 		SendKeys dick = new SendKeys();
+		Clear harry = new Clear();
 		
+		
+				
 		tom.getAttributes(driver1);
 //		dick.Sendkeys();
+		harry.clear();
 		
 		System.out.println("Th..tha..that's all folks!");
 	}
