@@ -22,7 +22,7 @@ public class WebElementsActionsTest  {
 		
 		
 				
-		tom.getAttributes(driver1);
+//		tom.getAttributes(driver1);
 //		dick.Sendkeys();
 		harry.clear();
 		
