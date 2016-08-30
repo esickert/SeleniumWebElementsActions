@@ -17,7 +17,7 @@ public class SendKeys extends ExtraStuffActionsTest	{
 		toSleep();
 		sam.sendKeys(Keys.ENTER);  //sends ENTER to element p
 	}
-//the following code will hold down the ctrl key while typing "a"	
+//the following code will hold down the ctrl key while typing "a". "chord" is a "hold down" method of Keys????	
 //	String selectAll = Keys.chord(Keys.CONTROL, "a");
 //  driver.findElement(By.whatever("anything")).sendKeys(selectAll);
 
