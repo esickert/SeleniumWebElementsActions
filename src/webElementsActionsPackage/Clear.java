@@ -25,6 +25,7 @@ public class Clear extends ExtraStuffActionsTest{
 		search.sendKeys("And again!!!!");
 		toSleep();
 		search.clear();
+		harry.quit();
 		
 		
 		
