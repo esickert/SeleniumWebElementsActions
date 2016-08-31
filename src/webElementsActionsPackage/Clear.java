@@ -27,9 +27,9 @@ public class Clear extends ExtraStuffActionsTest{
 		search.clear();
 		toSleep();
 		harry.close();
-		toSleep();
+//		toSleep();
 //		harry.get("www.yahoo.com");  //this doesn't work.
-		toSleep();
+	//	toSleep();
 		
 		
 		
