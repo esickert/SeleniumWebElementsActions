@@ -26,10 +26,11 @@ public class Clear extends ExtraStuffActionsTest{
 		toSleep();
 		search.clear();
 		toSleep();
-		harry.close();
+//		harry.close();
 //		toSleep();
-//		harry.get("www.yahoo.com");  //this doesn't work.
-	//	toSleep();
+		harry.get("www.yahoo.com");  //this doesn't work.
+		toSleep();
+		harry.quit();
 		
 		
 		
