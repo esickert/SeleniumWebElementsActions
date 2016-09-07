@@ -22,6 +22,8 @@ public class Submit extends ExtraStuffActionsTest {
 		erich.sendKeys("This is testing submit");     //this is a webElement
 		toSleep();
 		erich.submit();
+		toSleep();
+		sam.quit();
 	}
 	
 	
