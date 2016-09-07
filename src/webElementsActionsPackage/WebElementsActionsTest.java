@@ -25,7 +25,7 @@ public class WebElementsActionsTest  {
 				
 //		tom.getAttributes(driver1);
 //		dick.Sendkeys();
-		harry.clear();
+//		harry.clear();
 		steve.UseSubmit();
 		
 		System.out.println("Th..tha..that's all folks!");
