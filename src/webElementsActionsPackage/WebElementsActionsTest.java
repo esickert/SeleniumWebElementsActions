@@ -15,18 +15,20 @@ public class WebElementsActionsTest  {
 //		Date date = new Date();
 		
 		
-		WebDriver driver1 = new FirefoxDriver();		
-		GetAttributes tom = new GetAttributes();
-		SendKeys dick = new SendKeys();
-		Clear harry = new Clear();
-		Submit steve = new Submit();
+//		WebDriver driver1 = new FirefoxDriver();		
+//		GetAttributes tom = new GetAttributes();
+//		SendKeys dick = new SendKeys();
+//		Clear harry = new Clear();
+//		Submit steve = new Submit();
+		GetCssValue samantha = new GetCssValue();
 		
 		
 				
-		tom.getAttributes(driver1);
-		dick.Sendkeys();
-		harry.clear();
-		steve.UseSubmit();
+//		tom.getAttributes(driver1);
+//		dick.Sendkeys();
+//		harry.clear();
+//		steve.UseSubmit();
+		samantha.getCssValue();
 		
 		System.out.println("Th..tha..that's all folks!");
 	}

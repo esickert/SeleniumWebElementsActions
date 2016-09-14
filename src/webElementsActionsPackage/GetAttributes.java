@@ -10,7 +10,7 @@ public class GetAttributes extends ExtraStuffActionsTest{
 	// TODO Auto-generated constructor stub
 	Date date = new Date();
 	
-	public void getAttributes(WebDriver driver1)	{  //why is the same name as the class
+	public void getAttributes(WebDriver driver1)	{  
 	
 		driver1.get("http://www.google.com");
 		System.out.println(date + " Successfully opened Google");
