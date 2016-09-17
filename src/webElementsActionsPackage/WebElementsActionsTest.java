@@ -5,7 +5,6 @@ import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import java.util.Date;
 
 public class WebElementsActionsTest  {
 	
@@ -19,7 +18,7 @@ public class WebElementsActionsTest  {
 //		GetAttributes tom = new GetAttributes();
 //		SendKeys dick = new SendKeys();
 //		Clear harry = new Clear();
-//		Submit steve = new Submit();
+		Submit steve = new Submit();
 		GetCssValue samantha = new GetCssValue();
 		
 		
@@ -27,7 +26,7 @@ public class WebElementsActionsTest  {
 //		tom.getAttributes(driver1);
 //		dick.Sendkeys();
 //		harry.clear();
-//		steve.UseSubmit();
+		steve.UseSubmit();
 		samantha.getCssValue();
 		
 		System.out.println("Th..tha..that's all folks!");
