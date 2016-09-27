@@ -29,7 +29,7 @@ public class WebElementsActionsTest  {
 		steve.UseSubmit();
 		samantha.getCssValue();
 		
-		System.out.println("Th..tha..that's all folks!");
+		System.out.println("Th..that's all folks!");
 	}
 
 }
