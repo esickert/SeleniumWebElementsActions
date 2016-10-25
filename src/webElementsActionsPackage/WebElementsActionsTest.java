@@ -18,19 +18,17 @@ public class WebElementsActionsTest  {
 //		GetAttributes tom = new GetAttributes();
 //		SendKeys dick = new SendKeys();
 //		Clear harry = new Clear();
-//		Submit steve = new Submit();
-//		GetCssValue samantha = new GetCssValue();
-		GetLocation claude = new GetLocation();
-
-		
-		
-				
+		Submit steve = new Submit();
+		GetCssValue samantha = new GetCssValue();
+		AndTheRestOfTheMethods erich = new AndTheRestOfTheMethods();
+						
 //		tom.getAttributes(driver1);
 //		dick.Sendkeys();
 //		harry.clear();
 //		steve.UseSubmit();
 //		samantha.getCssValue();
-		claude.location();
+		erich.theRestOfTheMethods();
+		
 			
 		
 		System.out.println("Tha..that's all folks!");
