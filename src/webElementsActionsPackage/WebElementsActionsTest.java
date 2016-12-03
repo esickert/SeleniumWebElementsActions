@@ -15,9 +15,9 @@ public class WebElementsActionsTest  {
 		
 		
 //		WebDriver driver1 = new FirefoxDriver();		
-//		GetAttributes tom = new GetAttributes();
-//		SendKeys dick = new SendKeys();
-//		Clear harry = new Clear();
+		GetAttributes tom = new GetAttributes();
+		SendKeys dick = new SendKeys();
+		Clear harry = new Clear();
 		Submit steve = new Submit();
 		GetCssValue samantha = new GetCssValue();
 		AndTheRestOfTheMethods erich = new AndTheRestOfTheMethods();
@@ -26,8 +26,9 @@ public class WebElementsActionsTest  {
 //		dick.Sendkeys();
 //		harry.clear();
 //		steve.UseSubmit();
-//		samantha.getCssValue();
+        samantha.getCssValue();
 		erich.theRestOfTheMethods();
+
 		
 			
 		
